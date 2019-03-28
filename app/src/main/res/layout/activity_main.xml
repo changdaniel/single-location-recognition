@@ -43,13 +43,33 @@
         android:text="Heading: 0.0" />
 
     <TextView
-        android:id="@+id/txt_recognized"
+        android:id="@+id/txt_distance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="40dp"
         android:layout_marginTop="20dp"
-        android:text="False" />
+        android:text="0.0" />
+
+        <TextView
+            android:id="@+id/txt_headingdifference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="20dp"
+            android:text="0.0" />
+
+        <TextView
+            android:id="@+id/txt_recognized"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="20dp"
+            android:text="0.0" />
+
+
 
     </LinearLayout>
 
